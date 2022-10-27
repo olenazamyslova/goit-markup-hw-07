@@ -332,6 +332,7 @@ button {
   border-radius: 4px;
   padding-left: 16px;
   color: var(--add-color-2);
+  transition: border-color var(--transition-el);
 }
 .footer-input:focus {
   outline: none;
