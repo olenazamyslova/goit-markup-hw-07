@@ -23,28 +23,26 @@
   <body>
     <!-- Header -->
     <header class="page-header">
-      <div class="container container_flex page-header-container">
+      <div class="container page-header__container">
         <nav class="navigation">
-          <a class="logo link" href="/"
-            ><span class="logo__span">Web</span>Studio</a
-          >
-          <ul class="menu list">
+          <a class="logo" href="/"><span class="logo__span">Web</span>Studio</a>
+          <ul class="menu">
             <li class="menu__item">
-              <a class="menu__link link" href="./index.html">Студія</a>
+              <a class="menu__link" href="./index.html">Студія</a>
             </li>
             <li class="menu__item">
-              <a class="menu__link menu__link_current link" href="#portfolio"
+              <a class="menu__link menu__link_current" href="#portfoilo"
                 >Портфоліо</a
               >
             </li>
             <li class="menu__item">
-              <a class="menu__link link" href="#contact">Контакти</a>
+              <a class="menu__link" href="#contact">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul class="contacts list">
+        <ul class="contacts">
           <li class="contacts__item">
-            <a class="contacts__link link" href="mailto:info@devstudio.com"
+            <a class="contacts__link" href="mailto:info@devstudio.com"
               ><svg
                 class="contacts__img"
                 width="16"
@@ -57,7 +55,7 @@
             >
           </li>
           <li class="contacts__item">
-            <a class="contacts__link link" href="tel:+380961111111"
+            <a class="contacts__link" href="tel:+380961111111"
               ><svg
                 class="contacts__img"
                 width="10"
@@ -78,53 +76,53 @@
       <section class="section">
         <div class="container">
           <h1 class="visually-hidden">Some content</h1>
-          <ul class="buttons list">
-            <li class="buttons_item">
-              <button class="buttons_btn" type="button">Усі</button>
+          <ul class="buttons">
+            <li class="buttons__item">
+              <button class="buttons__btn" type="button">Усі</button>
+            </li>
+            <li class="buttons__item">
+              <button class="buttons__btn" type="button">Веб-сайти</button>
             </li>
             <li class="buttons_item">
-              <button class="buttons_btn" type="button">Веб-сайти</button>
+              <button class="buttons__btn" type="button">Додатки</button>
             </li>
             <li class="buttons_item">
-              <button class="buttons_btn" type="button">Додатки</button>
+              <button class="buttons__btn" type="button">Дизайн</button>
             </li>
             <li class="buttons_item">
-              <button class="buttons_btn" type="button">Дизайн</button>
-            </li>
-            <li class="buttons_item">
-              <button class="buttons_btn" type="button">Маркетинг</button>
+              <button class="buttons__btn" type="button">Маркетинг</button>
             </li>
           </ul>
 
           <!-- Cards -->
 
-          <ul class="cards list">
-            <li class="cards_item">
-              <a href="" class="cards_item_link link">
-                <div class="cards_underline">
+          <ul class="cards">
+            <li class="cards__item">
+              <a href="" class="cards__link">
+                <div class="cards__underline">
                   <img
                     width="370"
                     height="294"
                     src="images/portfolio/img_2_1.jpg"
                     alt="#"
                   />
-                  <p class="overlay">
+                  <p class="cards__overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
 
-                <div class="cards_title_class">
-                  <h2 class="cards_title">Технокряк</h2>
-                  <p class="cards_text">Веб-сайт</p>
+                <div class="cards__thumb">
+                  <h2 class="cards__title">Технокряк</h2>
+                  <p class="cards__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="cards_item">
-              <a href="" class="cards_item_link link">
-                <div class="cards_underline">
-                  <p class="overlay">
+            <li class="cards__item">
+              <a href="" class="cards__link">
+                <div class="cards__underline">
+                  <p class="cards__overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
@@ -137,16 +135,16 @@
                   />
                 </div>
 
-                <div class="cards_title_class">
-                  <h2 class="cards_title">Постер New Orlean vs Golden Star</h2>
-                  <p class="cards_text">Дизайн</p>
+                <div class="cards__thumb">
+                  <h2 class="cards__title">Постер New Orlean vs Golden Star</h2>
+                  <p class="cards__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="cards_item">
-              <a href="" class="cards_item_link link">
-                <div class="cards_underline">
-                  <p class="overlay">
+            <li class="cards__item">
+              <a href="" class="cards__link">
+                <div class="cards__underline">
+                  <p class="cards__overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
@@ -158,16 +156,16 @@
                     alt="#"
                   />
                 </div>
-                <div class="cards_title_class">
-                  <h2 class="cards_title">Ресторан Seafood</h2>
-                  <p class="cards_text">Додаток</p>
+                <div class="cards__thumb">
+                  <h2 class="cards__title">Ресторан Seafood</h2>
+                  <p class="cards__text">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="cards_item">
-              <a href="" class="cards_item_link link">
-                <div class="cards_underline">
-                  <p class="overlay">
+            <li class="cards__item">
+              <a href="" class="cards__link">
+                <div class="cards__underline">
+                  <p class="cards__overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
@@ -179,16 +177,16 @@
                     alt="#"
                   />
                 </div>
-                <div class="cards_title_class">
-                  <h2 class="cards_title">Проєкт Prime</h2>
-                  <p class="cards_text">Маркетинг</p>
+                <div class="cards__thumb">
+                  <h2 class="cards__title">Проєкт Prime</h2>
+                  <p class="cards__text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="cards_item">
-              <a href="" class="cards_item_link link">
-                <div class="cards_underline">
-                  <p class="overlay">
+            <li class="cards__item">
+              <a href="" class="cards__link">
+                <div class="cards__underline">
+                  <p class="cards__overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
@@ -200,16 +198,16 @@
                     alt="#"
                   />
                 </div>
-                <div class="cards_title_class">
-                  <h2 class="cards_title">Проєкт Boxes</h2>
-                  <p class="cards_text">Додаток</p>
+                <div class="cards__thumb">
+                  <h2 class="cards__title">Проєкт Boxes</h2>
+                  <p class="cards__text">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="cards_item">
-              <a href="" class="cards_item_link link">
-                <div class="cards_underline">
-                  <p class="overlay">
+            <li class="cards__item">
+              <a href="" class="cards__link">
+                <div class="cards__underline">
+                  <p class="cards__overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
@@ -221,16 +219,16 @@
                     alt="#"
                   />
                 </div>
-                <div class="cards_title_class">
-                  <h2 class="cards_title">Inspiration has no Borders</h2>
-                  <p class="cards_text">Веб-сайт</p>
+                <div class="cards__thumb">
+                  <h2 class="cards__title">Inspiration has no Borders</h2>
+                  <p class="cards__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="cards_item">
-              <a href="" class="cards_item_link link">
-                <div class="cards_underline">
-                  <p class="overlay">
+            <li class="cards__item">
+              <a href="" class="cards__link">
+                <div class="cards__underline">
+                  <p class="cards__overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
@@ -242,16 +240,16 @@
                     alt="#"
                   />
                 </div>
-                <div class="cards_title_class">
-                  <h2 class="cards_title">Видання Limited Edition</h2>
-                  <p class="cards_text">Дизайн</p>
+                <div class="cards__thumb">
+                  <h2 class="cards__title">Видання Limited Edition</h2>
+                  <p class="cards__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="cards_item">
-              <a href="" class="cards_item_link link">
-                <div class="cards_underline">
-                  <p class="overlay">
+            <li class="cards__item">
+              <a href="" class="cards__link">
+                <div class="cards__underline">
+                  <p class="cards__overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
@@ -263,30 +261,30 @@
                     alt="#"
                   />
                 </div>
-                <div class="cards_title_class">
-                  <h2 class="cards_title">Проєкт LAB</h2>
-                  <p class="cards_text">Маркетинг</p>
+                <div class="cards__thumb">
+                  <h2 class="cards__title">Проєкт LAB</h2>
+                  <p class="cards__text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="cards_item">
-              <a href="" class="cards_item_link link">
-                <div class="cards_underline">
+            <li class="cards__item">
+              <a href="" class="cards__link">
+                <div class="cards__underline">
                   <img
                     width="370"
                     height="294"
                     src="images/portfolio/img_2.9.jpg"
                     alt="#"
                   />
-                  <p class="overlay">
+                  <p class="cards__overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="cards_title_class">
-                  <h2 class="cards_title">Growing Business</h2>
-                  <p class="cards_text">Додаток</p>
+                <div class="cards__thumb">
+                  <h2 class="cards__title">Growing Business</h2>
+                  <p class="cards__text">Додаток</p>
                 </div>
               </a>
             </li>

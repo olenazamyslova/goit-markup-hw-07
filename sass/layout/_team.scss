@@ -1,20 +1,7 @@
-.team {
-    background-color: var(--add-color-3);
-    text-align: center;
-}
-
-.team__header {
-    font-size: 36px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: var(--main-color);
-    font-weight: 700;
-    margin-bottom: 50px;
-}
-
 .team-cards {
     display: flex;
     column-gap: 30px;
+    text-align: center;
 }
 
 .team-cards__item {
