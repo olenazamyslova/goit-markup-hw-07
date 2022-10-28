@@ -619,7 +619,7 @@ button {
   line-height: 1.6;
   letter-spacing: 0.03em;
 }
-.cards_item_link:hover .cards__overlay, .cards_item_link:focus .cards__overlay {
+.cards__link:hover .cards__overlay, .cards__link:focus .cards__overlay {
   transform: translateY(0%);
 }
 

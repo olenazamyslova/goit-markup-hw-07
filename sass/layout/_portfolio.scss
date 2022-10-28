@@ -94,8 +94,8 @@
     font-size: 18px;
     line-height: 1.6;
     letter-spacing: 0.03em;
-    .cards_item_link:hover &,
-    .cards_item_link:focus & {
+    .cards__link:hover &,
+    .cards__link:focus & {
         transform: translateY(0%);
     }
 }
